@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{0bf2aad7-8cdd-4c46-ac48-97751338d7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{b79f087a-79ce-413b-a3a0-b27df7b7cf3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NtFun">
+      <UniqueIdentifier>{6c056230-09a2-49a2-97ea-53acb247285c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APC">
+      <UniqueIdentifier>{0ee43386-47c3-45f5-9b9c-c8cd8f1b9304}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="ntlib.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\CppSupport.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="KHack.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\struct.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="NtFun.h">
+      <Filter>NtFun</Filter>
+    </ClInclude>
+    <ClInclude Include="KAPCall.h">
+      <Filter>APC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\CppSupport.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="KHack.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="NtFun.cpp">
+      <Filter>NtFun</Filter>
+    </ClCompile>
+    <ClCompile Include="KAPCall.cpp">
+      <Filter>APC</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
